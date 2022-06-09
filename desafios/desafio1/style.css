@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.chami {
+    background-color: #cacaca;
+    border: 2px solid black;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.title {
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  max-width: 250px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
